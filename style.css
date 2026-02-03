@@ -9,12 +9,12 @@ html{
     align-items: center;
 }
 
-h1{
+h2{
     color: #F9FAF8;
     font-size: 24px;
 }
 
-a{
+p,a{
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -23,3 +23,31 @@ a{
     display: flex;
     gap: 17px;
 }
+
+.firstblock{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+}
+
+.contentleft{
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+button{
+    width: 110px;
+    height: 30px;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
