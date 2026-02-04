@@ -28,12 +28,23 @@ p,a{
     display: flex;
     background-color: #1F2937;
     justify-content: space-around;
-}
+    align-items: center;
+    padding: 175px
 
+}
+/*FIGURE OUT SPACING BETWEEN ITEMS IN .contentleft*/
 .contentleft{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    width: 450px;
+    align-items: left;
+    
+}
 
+.bean{
+    height: 300px;
+    width: auto;
 }
 
 h1{
@@ -51,3 +62,39 @@ button{
     color: #F9FAF8;
 }
 
+.randominfo{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image1{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+}
+
+.image2{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+}
+
+.image3{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+}
