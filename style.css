@@ -87,23 +87,21 @@ h3{
 .images{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 30px;
 }
 
-.image1{
+.image1, .image2, .image3, .image4{
     display: flex;
     flex-direction: column;
-    flex-basis: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    
 }
 
-.image2{
-    display: flex;
-    flex-direction: column;
-    flex-basis: 300px;
-}
-
-.image3{
-    display: flex;
-    flex-direction: column;
-    flex-basis: 300px;
+.caption{
+    color: rgb(164, 164, 164)
 }
