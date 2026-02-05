@@ -5,8 +5,21 @@ html{
 .header{
     background: #1F2937;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    flex-basis: 100vw;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headertext{
+    display: flex;
+    flex-direction: column;
 }
 
 h2{
