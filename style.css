@@ -24,24 +24,8 @@ p,a{
     gap: 17px;
 }
 
-.firstblock{
-    display: flex;
-    background-color: #1F2937;
-    justify-content: space-around;
-    align-items: center;
-    padding: 175px
 
-}
 /*FIGURE OUT SPACING BETWEEN ITEMS IN .contentleft*/
-.contentleft{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 450px;
-    align-items: left;
-    
-}
-
 
 h1{
     font-size: 48px;
