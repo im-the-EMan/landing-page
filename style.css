@@ -54,12 +54,12 @@ p,a{
 }
 
 
-/*FIGURE OUT SPACING BETWEEN ITEMS IN .contentleft*/
 
 h1{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: -15px;
 }
 
 button{
