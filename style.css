@@ -6,20 +6,36 @@ html{
     background: #1F2937;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    flex-basis: 100vw;
+    padding: 0px 150px 150px;
 }
 
 .top{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-shrink: 1;
 }
 
 .headertext{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    width: 450px;
+}
+
+
+.imagemain{
+    height: 270px;
+    width: 600px;
+    background-color: grey;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between; 
+    align-items: end;
+    flex-shrink: 1;
+
 }
 
 h2{
