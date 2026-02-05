@@ -99,7 +99,11 @@ h3{
     align-items: center;
     text-align: center;
     width: 200px;
-    
+}
+
+.images img{
+    border: 4px #3882F6 solid;
+    border-radius: 17px
 }
 
 .caption{
