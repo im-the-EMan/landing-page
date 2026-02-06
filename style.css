@@ -90,7 +90,8 @@ h3{
     padding-left: 100px;
     padding-right: 100px;
     gap: 60px;
-    margin-bottom: 150px
+    margin-bottom: 150px;
+    margin-top: 20px;
 }
 
 .image1, .image2, .image3, .image4{
