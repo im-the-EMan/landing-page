@@ -138,6 +138,42 @@ h4{
     font-size: 20px;
 }
 
-.quotetext, h4{
-    flex-shrink: 1;
+.signupsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calltoaction{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 20px
+}
+
+h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #F9FAF8;
+    margin-bottom: 1px;
+}
+
+.actiontext{
+    margin-top: -2px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.leftcontent{
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+}
+
+.calltoaction button{
+    border: 2px #F9FAF8 solid;
 }
