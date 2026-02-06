@@ -32,7 +32,6 @@ body{
 .imagemain{
     height: 270px;
     width: 600px;
-    background-color: grey;
 }
 
 .bottom{
@@ -188,7 +187,3 @@ h5{
     display: flex;
     justify-content: center;
 }
-
-/*
-ANY FINAL TOUCHES NEEDED (USE SAMPLE FOR REFERENCE!)
-*/
