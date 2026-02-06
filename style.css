@@ -177,3 +177,9 @@ h5{
 .calltoaction button{
     border: 2px #F9FAF8 solid;
 }
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
