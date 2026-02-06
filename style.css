@@ -118,7 +118,7 @@ h3{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 80px 10px 50px 50px;
+    padding: 150px 0px 70px 0px;
 }
 
 .quotetext{
@@ -135,4 +135,8 @@ h4{
     justify-content: end;
     margin-top: -30px;
     font-size: 20px;
+}
+
+.quotetext, h4{
+    flex-shrink: 1;
 }
